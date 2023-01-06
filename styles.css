@@ -1,0 +1,71 @@
+body {
+  background-size: cover;
+  font-family: "urbanist", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  height: 120vh;
+  background-image: url(./undraw_wait_in_line_o2aq.svg);
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+p {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Urbanist", sans-serif;
+}
+
+#increment-btn {
+  background: goldenrod;
+}
+
+#decrement-btn {
+  background: darkred;
+}
+
+#save-btn {
+  background: green;
+}
+
+.div-info {
+  max-width: 70%;
+  padding: 20px;
+  background-color: rgba(108, 99, 255, 0.7);
+  border-radius: 10px;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  width: auto;
+  height: auto;
+}
